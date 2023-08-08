@@ -97,10 +97,6 @@ padding: 0px 20px;
     margin-top: 30px;
 }
 
-
-
-
-
 h1{
     text-align: center;
     font-size: 50px;
@@ -119,8 +115,6 @@ h1{
 
 }
 
-
-
 h2{
     margin-top: 100px;
     margin-left: 120px;
@@ -134,54 +128,41 @@ h3{
     color: #DE3163;
 }
 
-.featured-photo1{
-    height: 200px;
-    margin-top:35px;
-    border-radius: 4px;
-}
-
-.featured-products1{
-    margin-left: 600px;
-    font-family: sans-serif;
-    text-align: center;
-
-}
-
 h4{
     font-size: 17px;
     color: #DE3163;
 }
-.air-price{
-    font-size: 16px;
-    font-weight: bold;
+
+.featured-products-container{
+    display: grid;
+    grid-template-columns: 12% 12% 12% 12% 12%;
+    gap: 60px;
+    margin-left: 200px;
 }
-.featured-photo2{
+
+.featured-photo{
     height: 200px;
     margin-top:35px;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 
-.featured-products2{
-    margin-left: 400px;
+
+
+.featured-products{
     font-family: sans-serif;
     text-align: center;
+    cursor: pointer;
+}
 
+.featured-products:hover{
+    transform: translateY(-5px);
 }
 
 
-.small-con{
-    margin-inline: 30px;
-    margin-top: 30px;
-    display: inline-block;
-    
-}
 
-h4{
-    font-size: 17px;
-    color: #DE3163;
-}
-.pine-price{
+.shoe-prices{
     font-size: 16px;
+    font-family: serif;
     font-weight: bold;
 }
 
