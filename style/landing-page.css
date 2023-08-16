@@ -10,6 +10,61 @@
     padding: 0px;
     
 }
+@media screen and (max-width: 768px) {
+    header {
+        padding: 20px 5%;
+    }
+
+    .logo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .nav-links, .cta {
+        flex-basis: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .main-page {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .pictures {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .pictures-shoes {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .featured-products-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .featured-photo {
+        max-width: 100%;
+    }
+
+    .footer-nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .footer-nav ul li {
+        margin: 0 10px;
+    }
+}
+
+
+
+
 
 .logo{
     width: 150px;
@@ -126,9 +181,10 @@ h4{
 
 .featured-products-container{
     display: grid;
-    grid-template-columns: 12% 12% 12% 12% 12%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 60px;
-    margin-left: 200px;
+    margin: auto;
+    width: 70%;
 }
 
 .featured-photo{
@@ -218,6 +274,7 @@ h5 {
     padding: 20px 0;
     text-align: center;
     margin-top: 60px;
+    align-items: center;
 }
 
 
@@ -301,11 +358,13 @@ h6{
 .contact-container{
     width: 400px;
     padding: 50px;
-    margin-left: 450px;
     border: 5px solid #DE3163;
     border-radius: 10px;
     margin-top: 70px;
     margin-bottom: 70px;
+    align-items: center;
+    margin-left: 450px;
+
 }
 
 .contact-name{
