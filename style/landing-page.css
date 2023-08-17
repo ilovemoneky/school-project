@@ -309,19 +309,11 @@ h5 {
 
 
 
-.footerbrand-container {
-    background-color: black;
-    padding: 20px 0;
-    text-align: center;
-    margin-top: 60px;
-    align-items: center;
-}
-
-
 .footer-container {
     background-color: black;
     padding: 20px 0;
     text-align: center;
+    margin-top: 40px;
 }
 
 .footer-nav ul {
