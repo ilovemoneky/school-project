@@ -107,7 +107,7 @@
 
 
 .logo{
-    width: 150px;
+    width: 180px;
     cursor: pointer;
 }
 
@@ -220,9 +220,10 @@ h4{
 }
 
 .featured-products-container{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 60px;
+    gap: 45px;
     margin: auto;
     width: 70%;
 }
@@ -314,6 +315,7 @@ h5 {
     padding: 20px 0;
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 0px;
 }
 
 .footer-nav ul {
@@ -360,7 +362,8 @@ h5 {
     justify-content: center;
     gap: 50px;
     margin-top: 60px;
-    margin-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .brand-photo {
@@ -395,7 +398,8 @@ h6{
     margin-top: 70px;
     margin-bottom: 70px;
     align-items: center;
-    margin-left: 450px;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
